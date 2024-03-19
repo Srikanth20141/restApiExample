@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-19T01:41:18 WET" name="Default suite" finished-at="2024-03-19T01:41:22 WET" duration-ms="4398">
+  <suite started-at="2024-03-19T02:24:07 WET" name="Suite" finished-at="2024-03-19T02:24:12 WET" duration-ms="4635">
     <groups>
     </groups>
-    <test started-at="2024-03-19T01:41:18 WET" name="Default test" finished-at="2024-03-19T01:41:22 WET" duration-ms="4398">
-      <class name="com.nos.api.testcases.test">
-        <test-method signature="createNewUserNewMethod()[pri:0, instance:com.nos.api.testcases.test@402bba4f]" started-at="2024-03-19T01:41:18 WET" name="createNewUserNewMethod" finished-at="2024-03-19T01:41:21 WET" duration-ms="3224" status="PASS">
+    <test started-at="2024-03-19T02:24:07 WET" name="Test" finished-at="2024-03-19T02:24:12 WET" duration-ms="4635">
+      <class name="com.nos.api.testcases.ApiTest">
+        <test-method signature="createNewUser()[pri:0, instance:com.nos.api.testcases.ApiTest@1f2586d6]" started-at="2024-03-19T02:24:07 WET" name="createNewUser" finished-at="2024-03-19T02:24:10 WET" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewUserNewMethod -->
-        <test-method signature="updateUserNewMethod()[pri:1, instance:com.nos.api.testcases.test@402bba4f]" started-at="2024-03-19T01:41:21 WET" name="updateUserNewMethod" finished-at="2024-03-19T01:41:22 WET" duration-ms="805" status="PASS">
+        </test-method> <!-- createNewUser -->
+        <test-method signature="getAllUser()[pri:0, instance:com.nos.api.testcases.ApiTest@1f2586d6]" started-at="2024-03-19T02:24:10 WET" name="getAllUser" finished-at="2024-03-19T02:24:11 WET" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+        <test-method signature="updateUserNewMethod()[pri:1, instance:com.nos.api.testcases.ApiTest@1f2586d6]" started-at="2024-03-19T02:24:11 WET" name="updateUserNewMethod" finished-at="2024-03-19T02:24:11 WET" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserNewMethod -->
-        <test-method signature="deleteUser()[pri:2, instance:com.nos.api.testcases.test@402bba4f]" started-at="2024-03-19T01:41:22 WET" name="deleteUser" finished-at="2024-03-19T01:41:22 WET" duration-ms="321" status="PASS">
+        <test-method signature="deleteUser()[pri:2, instance:com.nos.api.testcases.ApiTest@1f2586d6]" started-at="2024-03-19T02:24:11 WET" name="deleteUser" finished-at="2024-03-19T02:24:12 WET" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-      </class> <!-- com.nos.api.testcases.test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.nos.api.testcases.ApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
